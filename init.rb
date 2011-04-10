@@ -1,0 +1,2 @@
+require 'smarter_paperclip'
+

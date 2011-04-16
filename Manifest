@@ -1,8 +1,9 @@
 CHANGELOG.rdoc
 Gemfile
 MIT-LICENSE
+Manifest
 README.md
 Rakefile
 init.rb
 lib/smarter_paperclip.rb
-Manifest
+smarter_paperclip.gemspec

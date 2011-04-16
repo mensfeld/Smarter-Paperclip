@@ -6,11 +6,11 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Maciej Mensfeld"]
-  s.date = %q{2011-04-10}
+  s.date = %q{2011-04-17}
   s.description = %q{Collection of Paperclip extensions}
   s.email = %q{maciej@mensfeld.pl}
   s.extra_rdoc_files = ["CHANGELOG.rdoc", "README.md", "lib/smarter_paperclip.rb"]
-  s.files = ["CHANGELOG.rdoc", "Gemfile", "MIT-LICENSE", "README.md", "Rakefile", "init.rb", "lib/smarter_paperclip.rb", "Manifest", "smarter_paperclip.gemspec"]
+  s.files = ["CHANGELOG.rdoc", "Gemfile", "MIT-LICENSE", "Manifest", "README.md", "Rakefile", "init.rb", "lib/smarter_paperclip.rb", "smarter_paperclip.gemspec"]
   s.homepage = %q{https://github.com/mensfeld/Smarter-Paperclip}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Smarter_paperclip", "--main", "README.md"]
   s.require_paths = ["lib"]

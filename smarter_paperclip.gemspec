@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name = %q{smarter_paperclip}
-  s.version = "0.2.0"
+  s.version = "0.2.1"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 1.2") if s.respond_to? :required_rubygems_version=
   s.authors = ["Maciej Mensfeld"]
@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.email = %q{maciej@mensfeld.pl}
   s.extra_rdoc_files = ["CHANGELOG.rdoc", "README.md", "lib/smarter_paperclip.rb"]
   s.files = ["CHANGELOG.rdoc", "Gemfile", "MIT-LICENSE", "README.md", "Rakefile", "init.rb", "lib/smarter_paperclip.rb", "Manifest", "smarter_paperclip.gemspec"]
-  s.homepage = %q{https://github.com/mensfeld/smarter_paperclip}
+  s.homepage = %q{https://github.com/mensfeld/Smarter-Paperclip}
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Smarter_paperclip", "--main", "README.md"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{smarter_paperclip}

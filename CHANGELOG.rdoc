@@ -1,3 +1,5 @@
+= Version 0.2.1
+* Fixed gem URLs
 = Version 0.2.0
 * Evolved to a gem from paperclip_extensions
 = Version 0.1.0

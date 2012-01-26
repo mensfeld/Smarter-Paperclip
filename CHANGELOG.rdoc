@@ -1,3 +1,5 @@
+= Version 0.3.0
+* Moved whole "old" Paperclip here to integrate it with smart extensions
 = Version 0.2.1
 * Fixed gem URLs
 = Version 0.2.0

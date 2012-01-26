@@ -1,12 +1,14 @@
 # Smarter Paperclip
 
+Paperclip with some additional cool stuff. This Paperclip version uses old Paperclip but it is tweaked up to work with Rails 3.2.
+
 Collection of Paperclip extensions:
 
 - `validates_attachment_minimum_resolution`
 - `validates_attachment_if_included`
 - `has_interpolated_attached_file`
 
-Works with Ruby 1.8.7, 1.8.7 EE, 1.9.2
+Works with Ruby 1.8.7, 1.8.7 EE, 1.9.2, 1.9.3
 Works with Rails3
 
 ## Install

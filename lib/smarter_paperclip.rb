@@ -1,3 +1,4 @@
+require  "paperclip"
 require 'fileutils'
 # Some usefull paperclip extensions
 module Paperclip

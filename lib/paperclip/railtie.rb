@@ -9,9 +9,6 @@ module Paperclip
           Paperclip::Railtie.insert
         end
       end
-      rake_tasks do
-        load "tasks/paperclip.rake"
-      end
     end
   end
 

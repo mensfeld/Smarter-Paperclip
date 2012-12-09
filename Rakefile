@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('smarter_paperclip', '0.3.1') do |p|
+Echoe.new('smarter_paperclip', '0.3.2') do |p|
   p.description = "Papercli with bunch of extensions"
   p.url = "https://github.com/mensfeld/Smarter-Paperclip"
   p.author = "Maciej Mensfeld"

@@ -1,3 +1,5 @@
+= Version 0.3.2
+* Version bump
 = Version 0.3.1
 * Errors are now attached only to file - not file_file_name, file_content_size etc
 = Version 0.3.0

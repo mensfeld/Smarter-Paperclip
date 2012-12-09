@@ -303,10 +303,11 @@ module Paperclip
       message = options[:message] || "must be set."
       # What a crazy workaround ;)
       msg = Proc.new{message.call} if message.is_a?(Proc)
-      validates_presence_of :"#{name}_file_name",
-                            :message   => msg,
-                            :if        => options[:if],
-                            :unless    => options[:unless]
+      validate proc{ |object|
+        object.errors.add(name, msg) if object.send("#{name}_file_name").blank?
+      }, 
+      :if => options[:if],
+      :unless => options[:unless]
     end
 
     # Places ActiveRecord-style validations on the content type of the file

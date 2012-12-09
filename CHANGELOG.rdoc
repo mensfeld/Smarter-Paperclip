@@ -1,3 +1,5 @@
+= Version 0.3.1
+* Errors are now attached only to file - not file_file_name, file_content_size etc
 = Version 0.3.0
 * Moved whole "old" Paperclip here to integrate it with smart extensions
 = Version 0.2.1

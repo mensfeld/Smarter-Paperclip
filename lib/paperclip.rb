@@ -284,6 +284,11 @@ module Paperclip
                              :if        => options[:if],
                              :unless    => options[:unless],
                              :allow_nil => true
+      validate do |subject|
+        unless subject.errors[:"#{name}_file_size"].empty?
+          subject.errors.add(:"#{name}", subject.errors[:"#{name}_file_size"].first)
+        end
+      end
     end
 
     # Adds errors if thumbnail creation fails. The same as specifying :whiny_thumbnails => true.

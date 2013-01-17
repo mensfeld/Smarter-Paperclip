@@ -1,3 +1,5 @@
+= Version 0.3.3
+* File size error attached to file
 = Version 0.3.2
 * Version bump
 = Version 0.3.1
